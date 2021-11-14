@@ -1,0 +1,8 @@
+t1 = (1, 2, [30, 40])
+t2 = (1, 2, [30, 40])
+print("t1 == t2?:", t1 == t2)
+print("t1 is t2?:", t1 is t2)
+print("t1 id:", id(t1))
+t1[-1].append(50)
+print(t1)
+print("t1 id changed?:", id(t1))
